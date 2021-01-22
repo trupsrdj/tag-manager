@@ -1,0 +1,48 @@
+--- 
+environment: 
+  - prod
+  - dev
+  - uat
+  - stage
+  - sandbox
+  - poc
+  - training
+
+function:
+  - web
+  - app
+  - db
+  - infra
+  - other
+
+name:
+  - splunk-web1-prod
+  - mdm-app2-stage
+  - vdi-workspaces-poc
+  - master-billing-s3
+
+ops-owner:
+- dxc-ops
+- nna-product-team
+- nna-ops
+- techm-ops
+- rntbci-ops
+- ndi-ops
+
+cost-identifier:
+  - service-request
+  - cost-center 
+  - project-number
+  - gl-account
+
+company-name:
+  - nna
+  - ne
+  - nml
+  - ndi
+  - rntbci
+
+business-domain:
+  - ia2
+  - ib1
+  - ib2
